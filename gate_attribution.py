@@ -19,7 +19,7 @@ USAGE:
 import json, math, os
 from collections import defaultdict
 
-os.chdir('/home/polybot/polymarket-bot/data')
+os.chdir('./data')
 
 print("Loading market_recap_history.jsonl...")
 fires = []

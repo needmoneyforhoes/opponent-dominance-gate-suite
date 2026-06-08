@@ -7,8 +7,8 @@ to find the statistically optimal dn_live gate policy.
 
 Usage:
     python3 gate_analysis_vps.py \
-        --history /home/polybot/polymarket-bot/market_history.jsonl \
-        --gate    /home/polybot/polymarket-bot/opp_gate_history.jsonl \
+        --history ./market_history.jsonl \
+        --gate    ./opp_gate_history.jsonl \
         --out     gate_report.json
 """
 

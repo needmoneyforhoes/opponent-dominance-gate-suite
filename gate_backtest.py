@@ -25,7 +25,7 @@ random.seed(42)
 # ── Paths ─────────────────────────────────────────────────────────────
 SEARCH_DIRS = [
     os.getcwd(),
-    '/home/polybot/polymarket-bot',
+    '.',
     os.path.dirname(os.path.abspath(__file__)),
 ]
 
