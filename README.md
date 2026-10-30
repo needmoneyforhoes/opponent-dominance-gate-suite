@@ -55,3 +55,8 @@ python3 gate_analysis_vps.py \
 ## Data
 
 Loads `market_history.jsonl` (per-tick `[cd, up_bid, up_ask, dn_bid, dn_ask, ... bn_delta]` arrays + winners), `market_recap_history.jsonl` (realized fires with `entry_price`, `hypo_pnl`, gate flags), and `opp_gate_history.jsonl` from the private polymarket-data repo. Several scripts default to `$DATA_DIR`; override via positional args or `--mh/--recap/--history`. No data is committed (see `.gitignore`).
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/opponent-dominance-gate-suite/issues/new). Pull requests are welcome too.
